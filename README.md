@@ -15,3 +15,5 @@ mvn archetype:generate -DinteractiveMode=false \
 ```
 
 the root folder pom.xml contains double end-of-line characters, so lines are spread.
+
+If you remove the <modules> section from the pom.xml, the output pom.xml will have no double end-of-lines.
